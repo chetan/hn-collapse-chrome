@@ -1,0 +1,11 @@
+{
+	"name": "hn-collapse",
+	"version": "1.0",
+	"description": "Enable collapsible comment threads on HackerNews",
+	"content_scripts": [
+    	{
+    		"matches": ["http://news.ycombinator.com/item*"],
+    		"js": ["jquery.min.js", "collapse.js"]
+    	}
+	]
+}
